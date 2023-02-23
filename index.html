@@ -2,63 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Serif+Georgian:wght@400;700&display=swap" rel="stylesheet">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
-			.maketforfigma{
-				flex: 0 0 auto;
-				/*background: #303b44;*/
-				/*background: #5CDB95;*/
-				background: #313a46;
-				font-weight: bold;
-				display: flex;
-			}
-			.maketforfigma img{
-				border-radius: 10px;
-				margin: 4px 0 0 4px;
-			}
-			.maketforfigma p {
-				/*color: #fff;*/
-				/*color: #05386B;*/
-				color: #98a6ad;
-				text-decoration: none;
-				letter-spacing: .01875rem;
-				font-size: .775rem;
-				padding: 0 10px;
-				line-height: 0.70rem;
-			}
-
-			.maketforfigma p > a {
-				/*color: #08ff00;*/
-				/*color: #EDF5E1;*/
-				color: #bbe4f0;
-				font-weight: bold;
-			}
-			.maketforfigma p > a:hover {
-				/*color: #ffa001*/
-				/*color: #379683*/
-				color: #ffffff
-			}
-
-			.main{
-				flex: 1 0 auto;
-			}
-
-			html{
-				height: 100%;
-			}
-
-			body{
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				padding: 0;
-				margin: 0;
-			}
-		</style>
+		<!-- <style>
+		
+		</style> -->
 		<div class="maketforfigma">
 			<a href="https://t.me/s/FigmaToHTML" target="_blank">
 				<img src="logo.png">
@@ -75,8 +30,132 @@
 		</div>
 		<!-- Конец -->
 
+
+
 		<div class="main">
-			В данном блоке размещается верстка
+			<header class="header"> 
+        <div class="conteiner">
+          <div class="header-main">
+        <a class="logo" href="#">
+        <img  src="img/Logo-alivio.png" alt="Alivio"></a>
+        <div class="menu">
+          <a href="#">
+            <ul>
+              <li>Why Alivio</li>
+              <li>Solutions</li>
+              <li>Community</li>
+              <li>Pricing</li>
+            </ul>
+          </a>
+        </div>
+        <div class="form">
+          <button class="button-no-active">Sign in</button>
+          <button class="button">Start Trial</button>
+        </div>
+        </div>
+        </div>
+        </header>
+
+        <section class="find-wey">
+          <div class="conteiner">
+          <h1>Be aware, <br> Manage well.</h1>
+          <p>Everyone experiences stress in different ways.
+Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+<button class="button">Find Your Way</button>
+</div>
+        </section>
+
+        <section class="steps">
+<div class="conteiner">
+          <p>How it works</p>
+          <div class="descr">
+            <h2 class="title">Understand & Release 
+the stress in 3 steps</h2>
+<p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
+          </div>
+
+          <div class="three-steps">
+            <div class="steps-one">
+<img class="number" src="img/step-one.png" alt="step one">
+<h3 class="steps-one-title">Personalize</h3>
+<p>Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+<img class="steps-one-img" src="img/img-step-one.jpg" alt="image">
+            </div>
+
+             <div class="steps-two">
+<img class="number" src="img/step-two.png" alt="step two">
+<h3 class="steps-two-title">Write & Understand</h3>
+<p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+<img class="steps-two-img" src="img/img-step-two.jpg" alt="image">
+            </div>
+
+             <div class="steps-three">
+<img class="number" src="img/step-three.png" alt="step three">
+<h3 class="steps-three-title">Alivio!</h3>
+<p>Now you are aware, and have a way to manage and overcome your own stress.
+What are you waiting for? Alivio today!</p>
+<img class="steps-three-img" src="img/img-step-three.jpg" alt="image">
+            </div>
+          </div>
+            </div>
+        </section>
+    
+        <section class="story">
+          <div class="conteiner">
+            <div class="wrapper">
+          <div class="story-descr">
+            <h2>Let's hear about Kayla's success story</h2>
+            <p>See how well Alivio works in a real customer’s life. </p>
+            <button class="button">Let’s get started</button>
+          </div>
+          <div class="play-video">
+            <img class="video" src="img/video.png" alt="video">
+            <a href="#">
+              <img class="arrow" src="img/arrow.png" alt="play">
+            </a>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <section class="product">
+          <div class="conteiner">
+<div class="product-wrapper">
+          <div class="product-img">
+          <img class="photo" src="img/photo.jpg" alt="photo">
+          <img class="card" src="img/Card.jpg" alt="card">
+        </div>
+        <div class="product-text">
+          <p class="product-text-title">Our product</p>
+          <h2>You tell us your stress,
+We make your diary</h2>
+<p>Everyone experiences it, and in different ways.
+Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+<button class="button">Find Your Way</button>
+        </div>
+</div>
+</div>
+        </section>
+
+        <footer class="footer">
+          <div class="conteiner">
+          <a href="#">
+            <img class="footer-logo" src="img/Alivio.png" alt="Alivio">
+          </a>
+          <div class="footer-wrapper">
+          <a href="#">
+            <ul>
+<li>Why Alivio</li>
+<li>Solutions</li>
+<li>Community</li>
+<li>Pricing</li>
+            </ul>
+          </a>
+          </div>
+          </div>
+        </footer>
+    
 		</div>
+
 </body>
 </html>
